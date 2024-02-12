@@ -1,0 +1,31 @@
+mysql -umaster -h lwplabs.cutenl0ktl5l.us-east-1.rds.amazonaws.com -pwelcome1 lwplabs
+
+mysql_secure_installation --set-root-pass RoboShop@1
+
+mysql -uroot -h 10.10.2.49 -pRoboShop@1 lwplabs
+
+
+
+
+SHOW DATABASES;
+
+
+create database lwplabs;
+
+use lwplabs;
+
+create table user(name varchar(100),password varchar(100), address varchar(1000), age int, profession varchar(100));
+
+SHOW FULL TABLES;
+
+INSERT INTO user VALUES('bala','1234','197',36,'it');
+
+SELECT * FROM user;
+
+dbURL lwplabs.cojh5a5pj8rf.us-east-1.rds.amazonaws.com
+
+dbName lwplabs
+
+
+
+
